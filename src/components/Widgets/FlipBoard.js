@@ -9,6 +9,7 @@ export default function FlipPage({...props}) {
             <CornerButton
                 className='right-corner'
                 text={name}
+                backgroundColor='gold'
             />
         </div>
     )
