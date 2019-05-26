@@ -1,11 +1,13 @@
 .corner-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
   .background {
     width: 0;
     height: 0;
     border: 45px solid black;
     border-bottom-color: transparent!important;
     border-left-color: transparent!important;
-    cursor: pointer;
     color: white;
   }
   .text {
@@ -13,5 +15,6 @@
     top: 30%;
     color: white;
     font-size: 12px;
+    cursor: pointer;
   }
 }
