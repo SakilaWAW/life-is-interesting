@@ -7,7 +7,7 @@ export default function HomePage ({...props}) {
     return (
         <div>
             <CornerButton text='Works' onClick={()=>history.push('/page/works')}/>
-            <Banner background={require('../../assets/Banner.png')}/>
+            <Banner background={require('../../assets/Banner.png')} title='Life is interesting'/>
         </div>
     )
 }

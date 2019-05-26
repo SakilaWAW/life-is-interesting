@@ -2,8 +2,13 @@ import React from 'react';
 import './Banner.scss';
 
 export default function Banner({...props}) {
-    const {background} = props;
+    const {background, title} = props;
     return (
-        <img className='banner-img' src={background}/>
+        <div className='banner'>
+            <img className='img' src={background}/>
+            <div className='text-area'>
+                <span className='title'>{title}</span>
+            </div>
+        </div>
     )
 }
