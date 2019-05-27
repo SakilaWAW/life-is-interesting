@@ -7,7 +7,7 @@ export default function Banner({...props}) {
         <div className='banner'>
             <img className='img' src={background}/>
             <div className='text-area'>
-                <span className='title'>{title}</span>
+                <span className='title h0'>{title}</span>
             </div>
         </div>
     )
