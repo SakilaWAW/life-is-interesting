@@ -43,7 +43,7 @@ function TheOneIntro({...props}) {
 
 export default function SelfIntro({...props}) {
     return (
-        <div className='self-intro'>
+        <div className='module self-intro'>
             <div className='title h1'>About us</div>
             <div className='intro-area'>
                 {ourIntro.map((intro, idx) =>
