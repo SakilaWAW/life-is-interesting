@@ -22,7 +22,7 @@ export default function CornerButton ({...props}) {
             onClick={onClick}
         >
             <div className='background' style={{borderWidth: `${size}px`, borderColor: backgroundColor}}/>
-            <span className={ctx('text',textClass)}>{text}</span>
+            <span className={ctx('text h6',textClass)}>{text}</span>
         </div>
     )
 }

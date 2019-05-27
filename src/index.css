@@ -21,3 +21,41 @@ code {
     font-family: 'KaushanScript';
     src: url('./assets/font/KaushanScript-Regular.otf');
 }
+
+@font-face {
+    font-family: 'SourceHanSans';
+    src: url('./assets/font/SourceHanSans-Normal.otf');
+}
+
+/*
+  文字统一格式
+ */
+.h6 {
+    font-size: 0.12rem;
+}
+.h5 {
+    font-size: 0.1328rem;
+}
+.h4 {
+    font-size: 0.16rem;
+}
+.h3 {
+    font-size: 0.1872rem;
+}
+.h2 {
+    font-size: 0.24rem;
+}
+.h1 {
+    font-size: 0.32rem;
+}
+.h0 {
+    font-size: 1rem;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'SourceHanSans', monospace;
+}
+html {
+    font-size: 100px;
+}

@@ -1,3 +1,24 @@
 .self-intro {
   width: 100%;
+  padding: 0.3rem 0.5rem 0.7rem 0.5rem;
+
+  .title {
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+  }
+
+  .intro-area {
+    display: flex;
+    flex-direction: row;
+    .one-intro {
+      flex: 1;
+      display: flex;
+      align-items: center;
+
+      .desc {
+        flex: 1;
+        padding: 0 0.3rem;
+      }
+    }
+  }
 }
