@@ -1,4 +1,5 @@
 import React from "react";
+import MediaStack from "./MediaStack";
 import './PhotoLine.scss'
 
 export default function PhotoLine({...props}) {
@@ -15,6 +16,11 @@ function TimeAxis({...props}) {
         <div className='time-axis'>
             <span className='placeholder h6'>{placeholder}</span>
             <div className='axis'/>
+            <MediaStack
+                cover={require('../../assets/Qinze.png')}
+                size={50}
+                count={16}
+            />
         </div>
     )
 }

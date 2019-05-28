@@ -9,8 +9,8 @@ export default function Avatar({...props}) {
             className={ctx('avatar',className)}
             style={{
                 background: `url('${src}') no-repeat`,
-                width: `${size}px`,
-                height: `${size}px`
+                width: `${size/100}rem`,
+                height: `${size/100}rem`
             }}
         />
     )
