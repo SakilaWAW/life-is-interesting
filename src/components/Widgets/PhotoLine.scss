@@ -1,4 +1,5 @@
 .photo-line {
+  position: relative;
   .time-axis {
     width: 100%;
     display: flex;
@@ -8,9 +9,17 @@
     .axis {
       flex: 1;
       margin-left: 0.2rem;
-      height: 0.02rem;
-      width: 100%;
-      background: black;
+
+      .axis-line {
+        height: 0.02rem;
+        width: 100%;
+        background: black;
+      }
     }
+  }
+
+  .media-stack-group {
+    position: absolute;
+    top: -0.5rem;
   }
 }
